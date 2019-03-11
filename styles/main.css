@@ -12,7 +12,6 @@ body {
 }
 .imagebox {
     margin-top: 10px;
-
     display: flex;
     justify-content: center;
     align-content: center;
@@ -43,7 +42,22 @@ body {
     font-size: 30px;
     padding: 40px;
 }
-p {
-    display: block;
-}
+@media all and (min-width:768px)
+{
+.headertablet{
 
+    margin: 20px;
+    display: flex;
+    padding-left: 30px; 
+    justify-content: space-between;
+    align-content: center;
+}
+.imagebox{
+display: inline-block;
+}
+.menu{
+align-self: center;
+display: inline-block;
+
+}
+}
