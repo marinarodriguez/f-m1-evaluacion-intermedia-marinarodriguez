@@ -60,4 +60,7 @@ align-self: center;
 display: inline-block;
 
 }
+.menuoption{
+    display:inline-block;
+}
 }
