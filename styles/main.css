@@ -1,4 +1,3 @@
-
 body {
     background: #3CD8C0;
     font-family: 'Rubik', sans-serif;
@@ -8,7 +7,6 @@ body {
     line-height: 1.4;
     color: #4a4a4a;
 }
-
 .header {
     position:fixed;
     top:0;
@@ -21,12 +19,11 @@ body {
     justify-content: center;
     align-content: center;
 }
-.nav{
+.nav {
     display: block;
     align-items: center;
 
 }
-
 .menu {
     margin-top: 10px;
     margin-bottom: 13px;
@@ -36,22 +33,20 @@ body {
     justify-content: center;
     list-style: none;
 }
-.menu-option
-{
+.menu-option {
     padding-left: 10px;
     padding-right: 10px;
     color: #4a4a4a;
     text-decoration: none;
     text-transform: uppercase;
 }
-.section{
+.section {
     display: flex;
     background-color: #3CD8C0;
     color: #FFFFFF;
     height: 100vh;
     justify-content: center;
     align-items: center;
- 
 }
 .title {
     margin: 40px;
@@ -69,7 +64,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.image-link{
+.image-link {
     display: flex;
     display: inline-block;
     margin: 20px 20px 20px 30px;
@@ -79,7 +74,7 @@ body {
     display: inline-block;
 }
 
-.menu-option{
+.menu-option {
     display:inline-block;
     font-size: 14px;
 }
