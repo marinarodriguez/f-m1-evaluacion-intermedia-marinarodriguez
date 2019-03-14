@@ -2,6 +2,10 @@ body {
     background: #3CD8C0;
     font-family: 'Rubik', sans-serif;
     margin: 0;
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4a4a4a;
 }
 
 .header {
@@ -10,7 +14,7 @@ body {
     background-color: #FFFFFF;
     width: 100%;
 }
-.imagebox {
+.image-link {
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -30,17 +34,16 @@ body {
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    color: #4a4a4a;
+
     
 }
-.menuoption
+.menu-option
 {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 16px;
     color: #4a4a4a;
     text-decoration: none;
-
+    text-transform: uppercase;
 }
 .section{
     display: flex;
@@ -55,12 +58,13 @@ body {
     margin: 40px;
     font-size: 30px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 /* FOR TABLET AND DESKTOP*/
 
 @media all and (min-width:768px)
 {
-.headertablet{
+.header-tablet{
 
     margin: 20px;
     display: flex;
@@ -68,14 +72,14 @@ body {
     justify-content: space-between;
     align-content: center;
 }
-.imagebox{
+.image-link{
     display: inline-block;
 }
 .nav {
     display:flex;
 }
 
-.menuoption{
+.menu-option{
     display:inline-block;
     font-size: 14px;
 }
