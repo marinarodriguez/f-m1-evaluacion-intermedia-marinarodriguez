@@ -64,14 +64,14 @@ body {
     display: inline-block;
     margin: 20px 20px 20px 30px;
 }
+.menu {
+    margin-right: 20px;
+}
 .menu-option {
     display:inline-block;
     font-size: 14px;
 }
 .title {
     font-size: 40px;
-}
-.menu {
-    margin: 0 20 10 0px;
 }
 }
